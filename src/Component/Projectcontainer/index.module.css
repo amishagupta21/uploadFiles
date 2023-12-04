@@ -1,0 +1,320 @@
+.offersContainer {
+    display: flex;
+}
+
+.projectContainer {
+    width: 1050.355px;
+    flex-shrink: 0;
+    background: #F4F4F4;
+}
+
+.uploadContainer {
+    width: 520px;
+    height: 1095px;
+    background-color: #FCFCFC;
+    margin-left: 47px;
+    padding-top: 15px;
+
+}
+
+.uploadContainer span {
+    color: #292932;
+    font-family: Titillium Web;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    text-transform: capitalize;
+    opacity: 0.99;
+}
+
+.uploadFile {
+    width: 500px;
+    height: 276.846px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1.5px solid #CACACA;
+    opacity: 0.99;
+    background: #F4F4F4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 28px;
+
+}
+
+.uploadFile p:nth-child(2) {
+    color: #2B2B34;
+    text-align: center;
+    font-family: Titillium Web;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    text-transform: capitalize;
+}
+
+.uploadFile p:nth-child(3) {
+    color: #2B2B34;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    opacity: 0.6;
+}
+
+.typeContainer span {
+    color: #222B45;
+    font-family: Titillium Web;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.135px;
+    opacity: 0.5;
+}
+
+.type {
+    margin-top: 25px;
+}
+
+.type span:nth-child(1),
+.type span:nth-child(2) {
+    width: 213.926px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    border: 1.5px solid #000;
+    opacity: 0.15;
+    background: #FFF;
+    padding-top: 16px;
+    padding-left: 30px;
+    padding-bottom: 16px;
+    padding-right: 30px;
+    margin-left: 15px;
+    color: #222B45;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27.135px;
+    opacity: 0.99;
+}
+
+.type span:nth-child(3) {
+    width: 213.926px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 2.145px;
+    background: #2B2B34;
+    padding-top: 16px;
+    padding-left: 30px;
+    padding-bottom: 16px;
+    padding-right: 30px;
+    margin-left: 15px;
+    color: #FCFCFC;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27.135px;
+    opacity: 0.99;
+}
+
+.titlebar {
+    display: flex;
+    margin-top: 25px;
+
+}
+
+.titleContainer {
+    margin-bottom: 20px;
+}
+
+.titleContainer span,
+.subtitleContainer span {
+    color: #222B45;
+    font-family: Titillium Web;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.135px;
+    opacity: 0.5;
+}
+
+.subtitle,
+.title {
+    margin-top: 25px;
+
+}
+
+.title span,
+.subtitle span {
+    width: 326.274px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    border: 1.5px solid #000;
+    opacity: 0.15;
+    background: #FFF;
+    color: #222B45;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27.135px;
+    opacity: 0.99;
+    padding-top: 17px;
+    padding-left: 19px;
+    padding-bottom: 17px;
+    padding-right: 100px;
+    margin-left: 15px;
+}
+
+.description {
+    margin-top: 10px;
+}
+
+.description span {
+    color: #222B45;
+    font-family: Titillium Web;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.135px;
+    opacity: 0.5;
+}
+
+.descriptionBar {
+    width: 500.918px;
+    height: 98.896px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    border: 1.5px solid #000;
+    opacity: 0.15;
+    background: #FFF;
+    margin-top: 10px;
+
+}
+
+.descriptionBar p {
+    width: 475.629px;
+    color:black;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29.135px;
+    opacity: 0.99;
+}
+
+button {
+    width: 204.038px;
+    height: 62.449px;
+    flex-shrink: 0;
+    border-radius: 2.145px;
+    background: linear-gradient(91deg, #6729FF 1.72%, #7B0FF5 96.46%);
+    cursor: pointer;
+    margin-top: 27px;
+    margin-left: 150px;
+
+}
+
+.createOrder {
+    color: #FFF;
+    text-align: center;
+    font-family: Titillium Web;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    opacity: 0.99;
+}
+
+.manageOfferContainer {
+    width: 440px;
+    height: 1095.745px;
+    flex-shrink: 0;
+    background: #FCFCFC;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+.manageOfferContainer span {
+    color: #292932;
+    font-family: Titillium Web;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    text-transform: capitalize;
+    opacity: 0.99;
+}
+
+.productInfoContainer {
+    margin-top: 46px;
+
+}
+
+.productInfoContainer span:nth-child(1),
+.productInfoContainer span:nth-child(2) {
+    width: 231.32px;
+    height: 67.769px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1.5px solid #CACACA;
+    opacity: 0.99;
+    background: #FFF;
+    color: #000;
+    text-align: center;
+    font-family: Titillium Web;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    padding: 10px 10px 10px 10px;
+}
+
+.productInfoContainer span:nth-child(3) {
+    width: 229.706px;
+    height: 67.769px;
+    flex-shrink: 0;
+    border-radius: 2.145px;
+    background: linear-gradient(91deg, #6729FF 1.72%, #7B0FF5 96.46%);
+    padding: 10px 10px 10px 10px;
+}
+
+.searchBar {
+    width: 420px;
+    height: 50.769px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1.5px solid #CACACA;
+    opacity: 0.99;
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+    padding-left: 20px;
+}
+
+.offerResult {
+   width: 420px;
+    height: 187.176px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1.5px solid #CACACA;
+    opacity: 0.99;
+    background: #FFF;
+    margin-top: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons{
+    display: flex;
+    gap: 5px;
+    margin: 10px;
+}

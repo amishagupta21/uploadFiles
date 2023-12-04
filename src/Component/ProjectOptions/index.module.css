@@ -1,0 +1,68 @@
+.optionContainer {
+    height: 100px;
+    background-color: #FCFCFC;
+    margin-top: 20px;
+    margin-left: 47px;
+    margin-right: 47px;
+    padding-top: 42px;
+    padding-left: 100px;
+}
+
+.optionContainer span:nth-child(1),
+.optionContainer span:nth-child(2),
+.optionContainer span:nth-child(3),
+.optionContainer span:nth-child(4) {
+    width: 213.3px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    background: rgba(255, 255, 255, 0.72);
+    color: #2E2E36;
+    text-align: center;
+    font-family: Titillium Web;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    opacity: 0.99;
+    padding-left: 41px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-right: 41px;
+    margin-left: 10px;
+}
+
+.optionContainer span:nth-child(5) {
+    width: 213.3px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    background: #292932;
+    color: #FCFCFC;
+    text-align: center;
+    font-family: Titillium Web;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    opacity: 0.99;
+    padding-left: 41px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-right: 41px;
+    margin-left: 10px;
+}
+
+.divideline {
+    width: 960.355px;
+    height: 2px;
+    flex-shrink: 0;
+    fill: rgba(255, 255, 255, 0.72);
+    stroke-width: 1px;
+    stroke: rgba(0, 0, 0, 0.20);
+    background-color: rgba(0, 0, 0, 0.20);
+    margin-left: 45px;
+   
+}

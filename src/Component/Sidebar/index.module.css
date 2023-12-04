@@ -1,0 +1,70 @@
+.sideContainer {
+    width: 295.317px;
+    flex-shrink: 0;
+    border-radius: 2.145px;
+    background: linear-gradient(91deg, #6729FF 1.72%, #7B0FF5 96.46%);
+    padding-left: 26px;
+}
+
+.logoContainer {
+    padding: 94.69px;
+}
+
+
+.project {
+    width: 269.924px;
+    height: 60px;
+    border-radius: 30px 0px 0px 30px;
+    background: #F4F4F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.project span {
+    color: #2B292C;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    opacity: 0.99;
+    margin-left: 8px;
+}
+
+.project img {
+    width: 16.554px;
+    height: 18.063px;
+    flex-shrink: 0;
+}
+
+.user,
+.chats {
+    width: 239.524px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 46.564px;
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    opacity: 0.8;
+    margin-top: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.user span,
+.chats span {
+    color: #F5F9FC;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    opacity: 0.99;
+    margin-left: 8px;
+
+}
